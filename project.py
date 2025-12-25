@@ -21,5 +21,4 @@ plt.show()
 
 df.groupby("Location")["Avg_Speed_Mbps"].mean().plot(kind="line", marker='o',
 title="Avg Speed")
-
 plt.show()
